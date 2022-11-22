@@ -1,12 +1,16 @@
+
+/**
+ * @type
+ */
 export default {
-  github: 'https://github.com/shuding/nextra',
-  docsRepositoryBase: 'https://github.com/shuding/nextra/blob/master',
-  titleSuffix: ' – Nextra',
+  github: 'https://github.com/asobirov/ml-notes',
+  docsRepositoryBase: 'https://github.com/asobirov/ml-notes/blob/master',
+  titleSuffix: ' – asobirov (ML Notes)',
   logo: (
     <>
-      <span className="mr-2 font-extrabold hidden md:inline">Nextra</span>
+      <span className="mr-2 font-extrabold hidden md:inline">asobirov</span>
       <span className="text-gray-600 font-normal hidden md:inline">
-        The Next.js Static Site Generator
+        ML Notes
       </span>
     </>
   ),
@@ -57,11 +61,12 @@ export default {
       <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
     </>
   ),
+  darkmode: true,
   search: true,
   prevLinks: true,
   nextLinks: true,
   footer: true,
   footerEditLink: 'Edit this page on GitHub',
-  footerText: <>MIT {new Date().getFullYear()} © Nextra.</>,
+  footerText: <>MIT {new Date().getFullYear()} © asobirov.</>,
   unstable_faviconGlyph: '👋',
 }
